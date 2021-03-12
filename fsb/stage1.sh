@@ -3,13 +3,10 @@ currentdate=$(date +"%Y-%m-%d %H:%M");
 folder=$(date +"%Y-%m-%d" -d "-1 day");
 folderonfsb=$'pered';
 
-HOST='91.102.158.13 13021'
-USER='telekomcentr'
-PASSWD='3685rtyJK34'
+HOST=''
+USER=''
+PASSWD=''
 
-#HOST='firstqwert.square7.ch'
-#USER='firstqwert'
-#PASSWD='qwert615199'
 
 cd /home/pered/
 
@@ -32,3 +29,4 @@ mput pered/$folder/*.cap*
 quit
 END_SCRIPT
 exit 0
+
