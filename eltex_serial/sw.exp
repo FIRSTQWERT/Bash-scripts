@@ -1,0 +1,23 @@
+#!/usr/local/bin/expect
+
+spawn telnet [lindex $argv 0]
+#echo "connect"
+expect "login:"
+#echo "login"
+send "admin\r"
+#echo "send login"
+#expect "Password:"
+#echo "pass"
+#send "password\n"
+#send "enable admin\r"
+#expect "Password:"
+#send "password\n"
+#send "upl cfg_toTFTP 10.xx.xx.xx [lindex $argv 0].cfg\r"
+#echo "send pass"
+expect "%"
+send "system info\r" 
+expect "%"
+#echo "!info!"
+sleep 10
+send "logout\r"
+send eof
