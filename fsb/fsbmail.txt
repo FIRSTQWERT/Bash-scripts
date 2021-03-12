@@ -1,0 +1,31 @@
+Filesystem      Size  Used Avail Use% Mounted on
+udev            3.9G     0  3.9G   0% /dev
+tmpfs           782M   88M  695M  12% /run
+/dev/sda1       902G  110G  746G  13% /
+tmpfs           3.9G     0  3.9G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup
+tmpfs           782M     0  782M   0% /run/user/0
+overlay         902G  110G  746G  13% /var/lib/docker/overlay2/5e89ef5b62a87a46ca78abee813a26027b4e50fbd1b5284b50953ec793dba532/merged
+shm              64M     0   64M   0% /var/lib/docker/containers/68aa978d31329f47c46d409fb6ed211e5eb87d2098f9ed7d75e0fbf73d294628/mounts/shm
+overlay         902G  110G  746G  13% /var/lib/docker/overlay2/40000b8034c676a0aab60a116a70ac5dc9fa5c7f0d51274d597ed0eacc0af691/merged
+shm              64M   16K   64M   1% /var/lib/docker/containers/d13084d324c3329ce6b7e5a578cf2dd154aa4ca8f5b40ee150beff48675b9e30/mounts/shm
+overlay         902G  110G  746G  13% /var/lib/docker/overlay2/b716f1362f016430714fedb5f7135e4859f59a91dffb0085ff9954ad4e130871/merged
+shm              64M     0   64M   0% /var/lib/docker/containers/b42e3c71cb91c342ba55840821d638911aea4c92d586c08d514eb3a7c3301572/mounts/shm
+overlay         902G  110G  746G  13% /var/lib/docker/overlay2/0a0723640efb57fcf80ce7ee877bcb7b87331ae92e757ceb9309071d88422d85/merged
+shm              64M     0   64M   0% /var/lib/docker/containers/39499f0b280597e8183edb1dfe52c73b2f1c49a9cc818acf63b7299f2e918ada/mounts/shm
+overlay         902G  110G  746G  13% /var/lib/docker/overlay2/c4929f76f6a4a0f07d0b64ab18b7d541a9544b1b8355d4229b635379e16e2e4e/merged
+shm              64M     0   64M   0% /var/lib/docker/containers/41de4e28c9161bd6057fe279ed5cb91793daf8a19d174612de6dd3a84282f355/mounts/shm
+overlay         902G  110G  746G  13% /var/lib/docker/overlay2/b671922753a9c4d0946714aaf5a2e489b4bf42e802db3587ebc31837c18adf5d/merged
+shm              64M   16K   64M   1% /var/lib/docker/containers/f2c1e6cdd16513988ef381b8e0b95efd0e841be2eec264dc7533e86f2a17f23a/mounts/shm
+tmpfs           782M     0  782M   0% /run/user/1029
+==============================================================================
+4.0K	/home/pered/2019-09-26
+4.0K	/home/pered/2019-09-25
+4.0K	/home/pered/2019-09-24
+4.0K	/home/pered/2019-09-23
+4.0K	/home/pered/2019-09-22
+4.0K	/home/pered/2018-06-27
+4.0K	/home/pered/2018-06-26
+5.7G	/home/pered/2017-05-10
+5.7G	/home/pered/
