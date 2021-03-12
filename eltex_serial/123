@@ -1,0 +1,31 @@
+spawn telnet 172.31.11.61
+Trying 172.31.11.61...
+Connected to 172.31.11.61.
+Escape character is '^]'.
+
+
+**************************
+*   TAU-72 FXS Gateway   *
+**************************
+
+el-expostroy1-2 login: admin
+
+
+BusyBox v1.15.3 (2015-03-04 15:30:52 NOVT) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+
+********************************************
+*         CLISH (see-lish)                 *
+*                                          *
+*      WARNING: Authorised Access Only     *
+********************************************
+        
+Welcome it is Wed Mar 10 03:57:52 UTC 2010
+> system info
+TAU-32M.IP Rev2
+System version:      #2.13.1
+Linux version:       #291 Wed Mar 4 15:33:57 NOVT 2015
+Firmware version:    v10_23_03_15
+BPU version:         TAU32M PLD v20141128 date: 2014 Nov 28 time 14:11:24
+> 
