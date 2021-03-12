@@ -3,9 +3,9 @@ currentdate=$(date +"%Y-%m-%d %H:%M");
 folder=$(date +"%Y-%m-%d" -d "-1 day");
 
 
-HOST='firstqwert.square7.ch'
+HOST='firstqwert'
 USER='firstqwert'
-PASSWD='qwert615199'
+PASSWD=''
 
 #cd /home/185/
 
@@ -29,4 +29,5 @@ quit
 
 END_SCRIPT 
 exit 0
+
 
