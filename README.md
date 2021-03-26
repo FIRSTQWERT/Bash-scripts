@@ -46,13 +46,13 @@ otkl8.sh – Отключение МГ/МН связи на АТС M-200.
 
 ## IP ping
 однострочный скрипт, пингует заданный хост, пишет результаты в файл.
-
+```
 Вариант без статистики
 ip=192.168.75.178; date=$(date +"%d%m%Y_%H%M_"); while true; do ping -c 1 -w 2 $ip >> /dev/null && echo “`date` $ip ping OK” || echo “`date` $ip ping FAILED” ; sleep 1; done >> $date$ip.txt
 
 Вариант со статистикой
 ip=192.168.75.178; date=$(date +"%d%m%Y_%H%M_"); while true; do ping -c 1 -w 2 $ip && echo “`date` $ip ping OK” || echo “`date` $ip ping FAILED” ; sleep 1; done >> $date$ip.txt
-
+```
 Создаёт файлик с именем дата_время_адрес.txt ( пример 19032021_1748_192.168.75.178.txt)
 
 ==============================================================
